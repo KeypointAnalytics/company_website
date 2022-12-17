@@ -1,0 +1,63 @@
+header {
+  background-color: rgb(8, 8, 18);
+  height: 100vh;
+  position: relative;
+}
+
+header video {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+}
+
+header #hero {
+  color: var(--white);
+  font-size: 26px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  top: 20%;
+  transform: translate(-50%, -50%);
+}
+
+header a {
+  border: solid var(--white) 2px;
+  border-radius: 50%;
+  display: flex;
+  height: 64px;
+  left: 50%;
+  position: absolute;
+  text-decoration: none;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  width: 64px;
+}
+
+header a:hover {
+  top: 77%;
+  transition: top 2s;
+}
+
+header i.fas.fa-angle-double-down {
+  color: var(--white);
+  font-size: 1.75rem;
+  margin: auto;
+}
+
+/* MQ TABLET */
+
+@media (min-width: 650px) and (max-width: 992px) {
+  header #hero {
+    font-size: 32px;
+    top: 40%;
+  }
+}
+
+/* MQ PC */
+
+@media (min-width: 993px) {
+  header #hero {
+    font-size: 36px;
+    top: 50%;
+  }
+}

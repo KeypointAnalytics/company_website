@@ -1,0 +1,55 @@
+/* icon that opens the nav */
+body .fas.fa-bars.fa-3x {
+  color:whitesmoke;
+  cursor: pointer;
+  position: fixed;
+  right: 5%;
+  top: 5%;
+  z-index: 10;
+}
+
+/* nav lay */
+nav.overlay {
+  background-color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
+  width: 0;
+  z-index: 100;
+}
+
+/* nav lay content */
+nav ul.overlay-content {
+  font-size: 1.5rem;
+  list-style-type: none;
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+  top: 25%;
+  width: 100%;
+}
+
+nav ul li {
+  margin: 25px 0;
+}
+
+nav a {
+  color: #818181;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--white);
+}
+
+/* button that close the nav */
+.overlay .closebtn {
+  font-size: 5rem;
+  position: absolute;
+  right: 45px;
+  top: 20px;
+}
