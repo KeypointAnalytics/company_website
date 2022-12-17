@@ -1,2 +1,2 @@
-# Corporate theme
-Corporate web page theme built with HTML5, CSS3 and JavaScript ES6.
+# Keypoint Analytics Website
+Website page built with HTML5, CSS3 and JavaScript.
